@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+<parameter name="username" value="shravanece062@gmail.com"/>
+<parameter name="password" value="shravan123$"/>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.testcases.TestCase01"/>
+       <methods>
+        <include name="Login" />
+        <include name="loginDataProvider" />
+      </methods>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

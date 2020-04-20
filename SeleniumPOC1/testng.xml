@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="methods" thread-count="3">
+<parameter name="username" value="shravanece062@gmail.com"/>
+<parameter name="password" value="shravan123$"/>
+  <test thread-count="5" name="Test">
+  <groups>
+  <run>
+  <include name="salesforce"/>
+  </run>
+  </groups>
+    <classes>
+      <class name="com.testcases.TestCase01"/>
+       <methods>
+       <include name="test1" />
+    	<include name="test2" />
+    	 <include name="test3" />
+    	<include name="test4" />
+    	<include name="test5" />
+    	<include name="test6" />
+    	 <include name="test7" />
+    	<include name="test8" />
+    	 <include name="test9" />
+    	<include name="test10" />
+        <include name="Login" />
+        <include name="loginDataProvider" />
+      </methods>
+      <class name="SeleniumPOC.V01.AppTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
